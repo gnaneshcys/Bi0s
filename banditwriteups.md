@@ -1,3 +1,7 @@
+Level0:
+Ssh command is used to connect to the another server. Syntax for ssh command is given as ‘ssh username@hostname -p portnumber’ . Therefore it can be written as ‘Ssh bandit0@bandit.labs.overthewire.org -p 2220’.
+Level 0 -> Level 1:
+ls command is used to list all the files . after to display the contents of the file readme cat command is used .
 Level 1 -> Level 2
  The password is in a file named '-' located in the home directory.To read a file named '-', use the command: cat ./- Alternatively, you can redirect it using: cat < -Copy the displayed password to log in as bandit2.
 Level 2 -> Level 3
